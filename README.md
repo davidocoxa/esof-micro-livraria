@@ -232,7 +232,7 @@ git commit -m "Tarefa prática #1 - Microservices"
 git push origin main
 ```
 
-## Tarefa Prática #2: Criando um Container Docker
+## [Opcional] Tarefa Prática #2: Criando um Container Docker
 
 Nesta segunda tarefa, você irá criar um container Docker para o seu microserviço. Os containers são importantes para isolar e distribuir os microserviços em ambientes de produção. Em outras palavras, uma vez "copiado" para um container, um microsserviço pode ser executado em qualquer ambiente, seja ele sua máquina local, o servidor de sua universidade, ou um sistema de cloud (como Amazon AWS, Google Cloud, etc).
 
@@ -295,7 +295,7 @@ O `./` no final indica que estamos executando os comandos do Dockerfile tendo co
 
 #### Passo 3
 
-Antes de iniciar o serviço via container Docker, precisamos remover a inicialização do serviço de Shipping do comando `npm run start`. Para isso, basta remover o sub-comando `start-shipping` localizado na linha 7 do arquivo [package.json](https://github.com/aserg-ufmg/micro-livraria/blob/main/package.json), conforme mostrado no próximo diff (a linha com o símbolo "-" no início representa a linha original do arquivo; a linha com o símbolo "+" representa como essa linha deve ficar após a sua alteração):
+Antes de iniciar o serviço via container Docker, precisamos remover a inicialização do serviço de Shipping do comando `npm run start`. Para isso, basta remover o sub-comando `start-shipping` localizado na linha 7 do arquivo [package.json](https://github.com/fabsfernandes/esof-micro-livraria/blob/main/package.json), conforme mostrado no próximo diff (a linha com o símbolo "-" no início representa a linha original do arquivo; a linha com o símbolo "+" representa como essa linha deve ficar após a sua alteração):
 
 ```diff
 diff --git a/package.json b/package.json
@@ -365,3 +365,5 @@ Se quiser estudar um segundo sistema de demonstração de microsserviços, suger
 Este exercício prático, incluindo o seu código, foi elaborado por **Rodrigo Brito**, aluno de mestrado do DCC/UFMG, como parte das suas atividades na disciplina Estágio em Docência, cursada em 2020/2, sob orientação do **Prof. Marco Tulio Valente**.
 
 O código deste repositório possui uma licença MIT. O roteiro descrito acima possui uma licença CC-BY.
+
+Adaptação: Profa. Fabíola S. F. Pereira (FACOM/UFU)
