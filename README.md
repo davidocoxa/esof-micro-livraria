@@ -18,7 +18,7 @@ No restante deste documento vamos:
 -   Apresentar instruções para sua execução local, usando o código disponibilizado no repositório.
 -   Descrever duas tarefas práticas para serem realizadas pelos alunos, as quais envolvem:
     -   Tarefa Prática #1: Implementação de uma nova operação em um dos microsserviços
-    -   Tarefa Prática #2: Criação de containers Docker para facilitar a execução dos microsserviços.
+    -   [Opcional] Tarefa Prática #2: Criação de containers Docker para facilitar a execução dos microsserviços.
 
 ## Arquitetura
 
